@@ -3,20 +3,42 @@
         <h2 v-html="procedure.text"></h2>
         <p>We're here to make your life here at SFC easier.</p>
         <p>For the official guide, please <a href="">click here</a>.</p>
-        <Subpages :subpages="procedure.subpages" />
+        <Subpage :subpage="procedure.subpages[count]" />
+        <div class="prev-next-container">
+            <button @click="prevPage">Previous</button>
+            <button @click="nextPage">Next</button>
+        </div>
+        <p>{{count}}</p>
     </div>
 </template>
 
 <script>
-import Subpages from './Subpages'
+import Subpage from './Subpage'
 
 export default {
     name: 'Procedure',
     props: {
         procedure: Object
     },
+    data(){
+        return {
+            count: 0
+        }
+    },
     components: {
-        Subpages
+        Subpage
+    },
+    methods: {
+        nextPage() {
+            if (this.count < this.procedure.subpages.length - 1) {
+                this.count++;
+            }
+        },
+        prevPage() {
+            if (this.count > 0) {
+                this.count--;
+            }
+        }
     }
 }
 </script>
@@ -57,4 +79,7 @@ a:hover {
     text-decoration: underline;
 }
 
+.prev-next-container {
+    text-align: center;
+}
 </style>
