@@ -26,7 +26,7 @@ export default {
 }
 
 .inner-header {
-    width: 90%;
+    width: 80%;
     height: 100%;
     display: block;
     margin: 0 auto;

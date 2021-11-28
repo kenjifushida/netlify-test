@@ -4,11 +4,10 @@
         <p>We're here to make your life here at SFC easier.</p>
         <p>For the official guide, please <a href="">click here</a>.</p>
         <Subpage :subpage="procedure.subpages[count]" />
-        <div class="prev-next-container">
-            <button @click="prevPage">Previous</button>
-            <button @click="nextPage">Next</button>
+        <div class="btn-container">
+            <button @click="prevPage" class="btn" >Previous</button>
+            <button @click="nextPage" class="btn" >Next</button>
         </div>
-        <p>{{count}}</p>
     </div>
 </template>
 
@@ -46,7 +45,7 @@ export default {
 <style scoped>
 .content {
     padding-top: 80px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: block;
 }
@@ -79,7 +78,31 @@ a:hover {
     text-decoration: underline;
 }
 
-.prev-next-container {
-    text-align: center;
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #FFAF51;
+    color: white;
+    width: 190px;
+    height: 53px;
+    margin: 20px;
+    border: none;
+    border-radius: 31px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform:scale(0.98);
+    background: #face75;
 }
 </style>
