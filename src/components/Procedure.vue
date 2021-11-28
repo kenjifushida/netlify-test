@@ -45,7 +45,7 @@ export default {
 <style scoped>
 .content {
     padding-top: 80px;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: block;
 }

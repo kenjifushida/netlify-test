@@ -1,6 +1,6 @@
 <template>
     <div class="step-container">
-        <div class="step-img"><img :src="require(`@/assets/cns_mac/${step.img}`)" alt="duck"></div>
+        <div class="step-img"><img :src="require(`@/assets/cns_mac/${step.img}`)" alt="step"></div>
         <div class="step-info">
             <h1>{{step.id}}</h1>
             <p v-html="step.text"></p>
