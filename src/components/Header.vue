@@ -5,8 +5,6 @@
                 <h1><img src="../assets/duck_feet.svg" alt="cns-logo"></h1>
                 <h1>SFC CNS GUIDE</h1>
             </div>
-
-            <ul></ul>
         </div>
     </div>
 </template>
