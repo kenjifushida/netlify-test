@@ -2,8 +2,8 @@
     <div class="header">
         <div class="inner-header">
             <div class="logo-container">
-                <h1><img src="../assets/duck_feet.svg" alt="cns-logo"></h1>
-                <h1>SFC CNS GUIDE</h1>
+                <h1><a href="/"><img src="../assets/duck_feet.svg" alt="cns-logo"></a></h1>
+                <h1><a href="/">SFC CNS GUIDE</a></h1>
             </div>
         </div>
     </div>
@@ -50,4 +50,17 @@ export default {
     font-size: 20px;
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
 </style>
