@@ -54,10 +54,11 @@ export default {
     padding: 10px 0px;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2.5rem;
 }
 
 .content p {
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: normal;
     color: #272727;

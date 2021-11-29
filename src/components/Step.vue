@@ -5,7 +5,6 @@
             <h1>{{step.id}}</h1>
             <p v-html="step.text"></p>
         </div>
-        
     </div>
 </template>
 
@@ -19,22 +18,67 @@ export default {
 </script>
 
 <style scoped>
+
 .step-container {
+    width: 100%;
+    max-width: 98rem;
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     border: 2px solid #dee2e6;
-    border-radius: 15px;
+    border-radius: .8rem;
     margin-bottom: 1rem;
+}
+
+.step-img {
+    min-width: 30rem;
+    max-width: 30rem;
+}
+
+.step-img img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .step-info {
     padding: 20px;
 }
 
-.step-info p{
-    padding-top: 20px;
+.step-info h1{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
     color: #272727;
+}
+
+.step-info p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    color: #272727;
+}
+
+@media screen and (max-width:1068px) {
+
+    .step-img{
+        min-width: 20rem;
+        max-width: 20rem;
+    }
+}
+
+@media screen and (max-width:868px) {
+    .step-container {
+        max-width: 70rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .step-container {
+        flex-direction: column;
+    }
+
 }
 
 </style>

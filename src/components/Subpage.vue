@@ -68,8 +68,7 @@ export default {
     color: #FFAF51;
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 2rem;
 
 }
 </style>
