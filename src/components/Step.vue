@@ -21,7 +21,7 @@ export default {
 
 .step-container {
     width: 100%;
-    max-width: 98rem;
+    box-sizing: border-box;
     padding: 3rem;
     background-color: #fff;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
@@ -70,7 +70,7 @@ export default {
 
 @media screen and (max-width:868px) {
     .step-container {
-        max-width: 70rem;
+        padding: 2rem;
     }
 }
 
@@ -79,6 +79,10 @@ export default {
         flex-direction: column;
     }
 
+    .step-img {
+        min-width: 100%;
+        min-height: 100%;
+    }
 }
 
 </style>
