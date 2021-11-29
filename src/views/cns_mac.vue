@@ -4,6 +4,7 @@
 
 <script>
 import Procedure from '../components/Procedure.vue'
+import json from '../json/cns_to_mac.json'
 
 export default {
     name:'cns_mac',
@@ -11,28 +12,8 @@ export default {
         Procedure
     },
     data() {
-    return {
-      procedure: {
-        "text": "Connecting your Mac (MacOS) to CNS",
-        "subpages": [
-          {
-          "id": "1",
-          "title": "Generating your Certificate" 
-          },
-          {
-          "id": "2",
-          "title": "Authenticate your certificate" 
-          },
-          {
-          "id": "3",
-          "title": "Connecting to CNS Wi-Fi" 
-          },
-          {
-          "id": "a",
-          "title": "Deleting Old Certificates" 
-          }
-        ]
-      }
+      return {
+        procedure: json
     }
   }
 }

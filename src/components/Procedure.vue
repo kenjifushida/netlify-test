@@ -31,11 +31,15 @@ export default {
         nextPage() {
             if (this.count < this.procedure.subpages.length - 1) {
                 this.count++;
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
             }
         },
         prevPage() {
             if (this.count > 0) {
                 this.count--;
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
             }
         }
     }
