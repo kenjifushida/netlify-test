@@ -34,7 +34,7 @@ export default {
             {
                 "subpage": "1",
                 "id": "03",
-                "text": "Open a web browser and go to the following URL :⇒ https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en <br/><br/>Type your CNS login name in ❶ and your CNS login password in ❷ . Then, click ❸ 'Start the registration.'",
+                "text": "Open a web browser and go to the following URL:<br/><a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en' target='_blank' rel='noopener noreferrer'>CNS Personal Certificate</a><br/><br/>Type your CNS login name in ❶ and your CNS login password in ❷ . Then, click ❸ 'Start the registration.'",
                 "img": "cns_mac3.png"
             },
             {
