@@ -1,14 +1,13 @@
 <template>
     <div class="subpage">
         <h5>{{subpage.id}}. {{subpage.title}}</h5>
-        <Steps :steps="steps" :subpage_id="subpage.id" />
+        <Steps :steps="subpage.steps" :subpage_id="subpage.id" />
     </div>
     
 </template>
 
 <script>
 import Steps from './Steps'
-import json from '../json/cns_mac_subpages.json'
 
 export default {
     name: 'Subpage',
@@ -17,11 +16,6 @@ export default {
     },
     components: {
         Steps
-    },
-    data() {
-        return {
-            steps: json
-        }
     }
 }
 </script>

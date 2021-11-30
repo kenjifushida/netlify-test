@@ -3,19 +3,123 @@
     "subpages": [
         {
         "id": "1",
-        "title": "Generating your Certificate" 
+        "title": "Generating your Certificate",
+        "steps": [
+            {
+                "subpage": "1",
+                "id": "01",
+                "text": "First, connect to the wireless LAN used for setting up network access on new devices. If you have a mobile router or any other method to connect to the internet, skip to STEP 03. If not, click ❷ 'Join Other Network...' from the list of ❶ Wi-Fi icon.",
+                "img": "cns_mac1.png"
+            },
+            {
+                "subpage": "1",
+                "id": "02",
+                "text": "Type '000000SFC' in ❶ 'Network Name.' Uncheck ❷'Remember this network.' Then, click ❸ 'Join.'<br/><br/>＊ '000000SFC' can only be used for setting up Wireless LAN connection. It can not be connected outside campus.",
+                "img": "cns_mac2.png"
+            },
+            {
+                "subpage": "1",
+                "id": "03",
+                "text": "Open a web browser and go to the following URL:<br/><a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en' target='_blank' rel='noopener noreferrer'>CNS Personal Certificate</a><br/><br/>Type your CNS login name in ❶ and your CNS login password in ❷ . Then, click ❸ 'Start the registration.'",
+                "img": "cns_mac3.png"
+            },
+            {
+                "subpage": "1",
+                "id": "04",
+                "text": "If this is your first time creating a personal certificate, select 'Issue' in ❶ and click ❷ 'Submit.'<br/><br/>If you have already issued your personal certificate and the certificate is still valid, select 'Download' in ❶ , click ❷ 'Submit,' and skip to STEP 06.<br/><br/> New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/><br/>The certificate is valid for the duration of the student's enrollment",
+                "img": "cns_mac4.png"
+            },
+            {
+                "subpage": "1",
+                "id": "05",
+                "text": "Make a new passphrase for your personal certificate. This passphrase is necessary to protect your personal certificate against unauthorized use and must contain at least 8 characters. Enter your passphrase in ❶ and ❷ , then click ❸ 'Issue the personal certificate.' This passphrase will be used in STEP 08.",
+                "img": "cns_mac5.png"
+            },
+            {
+                "subpage": "1",
+                "id": "06",
+                "text": "Your download will begin automatically. Once completed, open the file you just downloaded. If download does not begin, click ❶ 'Download' to save the file and open the certificate.<br/><br/>If your personal certificate has expired, please click on the Delete Old Certificate button below.",
+                "img": "cns_mac6.png"
+            }
+        ]
         },
         {
         "id": "2",
-        "title": "Authenticate your certificate" 
+        "title": "Authenticate your certificate",
+        "steps": [
+            {
+                "subpage": "2",
+                "id": "07",
+                "text": "Once the window 'Add Certificates' appears, make sure the selected keychain in \u2776 is 'login.' Then click \u2777 'Add.'",
+                "img": "cns_mac7.png"
+            },
+            {
+                "subpage": "2",
+                "id": "08",
+                "text": "Type your personal certificate passphrase in \u2776'Password' from STEP 05 and click \u2777 'OK.'\uff0a If you have forgotten your passphrase, return to STEP 04 and reissue your personal certificate.",
+                "img": "cns_mac8.png"
+            }
+        ]
         },
         {
         "id": "3",
-        "title": "Connecting to CNS Wi-Fi" 
+        "title": "Connecting to CNS Wi-Fi",
+        "steps": [
+            {
+                "subpage": "3",
+                "id": "09",
+                "text": "Click the \u2776 Wi-Fi icon to get the list of available wireless networks. Then, select \u2777 'CNS' from the list.",
+                "img": "cns_mac9.png"
+            },
+            {
+                "subpage": "3",
+                "id": "10",
+                "text": "From \u2776 'Mode,' select 'EAP-TLS.' From \u2777 'Identity,' select '[your CNS login name]@sfc.keio.ac.jp.' Make sure to check \u2778 'Remember this network' and leave the 'Username' column blank. Then, click \u2779 'Join.'",
+                "img": "cns_mac10.png"
+            },
+            {
+                "subpage": "3",
+                "id": "11",
+                "text": "The dialog box shown on the left side will appear. Click \u2776 'Continue.'",
+                "img": "cns_mac11.png"
+            },
+            {
+                "subpage": "3",
+                "id": "12",
+                "text": "When asked to enter your password, type your macOS account password in \u2776 'Password.' Then, click \u2777 'Update Settings.'",
+                "img": "cns_mac12.png"
+            },
+            {
+                "subpage": "3",
+                "id": "13",
+                "text": "The dialog box shown on the left side will appear. Click \u2776 'Always Allow.'",
+                "img": "cns_mac13.png"
+            },
+            {
+                "subpage": "3",
+                "id": "14",
+                "text": "Again, click \u2776 'Allow' on the dialog box. From now on, if you are on campus, your computer will connect to CNS automatically.<br/>Connecting Your Mac (macOS) to CNS is completed.",
+                "img": "cns_mac14.png"
+            }
+        ]
         },
         {
         "id": "a",
-        "title": "Deleting Old Certificates" 
+        "title": "Deleting Old Certificates",
+        "steps": [
+            {
+                "subpage": "a",
+                "id": "a01",
+                "text": "To delete an old certificate, first click on \u2777 'Keychain Access' in the \u2776 'Utilities' section of the application.",
+                "img": "cns_maca1.png"
+            },
+            {
+                "subpage": "a",
+                "id": "a02",
+                "text": "Select \u2776 'Certificates', and click \u2777 'Delete [CNS login name]@sfc.keio.ac.jp.' which appears when you rightclick '[CNS login name]@sfc.keio.ac.jp.'<br/><br/>After deleting the certificate, return to STEP1 and reissue your personal certificate. If you want to connect to other multiple devices after the reissue, select 'Download' because only the latest certificate will be valid. If you are still unable to connect after adding the certificate, please 'reboot' your device.<br/><br/>This is the end of the procedure for connecting your Mac (macOS) to CNS .",
+                "img": "cns_maca2.png"
+            }
+        ]
         }
     ]
 }

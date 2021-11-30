@@ -4,6 +4,7 @@
         <p>We're here to make your life here at SFC easier.</p>
         <p>For the official guide, please <a href="">click here</a>.</p>
         <Subpage :subpage="procedure.subpages[count]" />
+        <ProgressBar :count="count" :total="procedure.subpages.length" />
         <div class="btn-container">
             <button @click="prevPage" class="btn" >Previous</button>
             <button @click="nextPage" class="btn" >Next</button>
@@ -13,6 +14,7 @@
 
 <script>
 import Subpage from './Subpage'
+import ProgressBar from './ProgressBar'
 
 export default {
     name: 'Procedure',
@@ -25,7 +27,8 @@ export default {
         }
     },
     components: {
-        Subpage
+        Subpage,
+        ProgressBar
     },
     methods: {
         nextPage() {

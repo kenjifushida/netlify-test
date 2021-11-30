@@ -1,7 +1,7 @@
 <template>
     <div class="steps-container">
         <div :key="step.id" v-for="step in steps">
-            <Step v-if="subpage_id === step.subpage" :step="step" />
+            <Step :step="step" />
         </div>
     </div>
 </template>
