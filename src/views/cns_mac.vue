@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/cns-ios">Mac</a></p>
+      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/cns-mac">Mac</a></p>
       <Procedure :procedure="procedure" />
     </div>
     <Footer />
