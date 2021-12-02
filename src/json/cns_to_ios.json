@@ -1,0 +1,133 @@
+{
+    "text": "Connecting your iOS Device to CNS",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Generating your Certificate",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "On your home screen, tap \u2776 'Safari.'<br/><br/>\uff0a This procedure assumes that your smartphone has a 4G/5G connection.<br/>\uff0a If you don't have 4G/5G connection, please connect to SSID '000000SFC' from wireless settings.",
+                    "img": "cns_ios/cns_ios1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Type the following URL in \u2776 or scan the following QR code, and go to the registration page :<br/><br/><a href=https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en\">https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en</a>\"",
+                    "img": "cns_ios/cns_ios2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Type your CNS login name in \u2776 'CNS login name' and your CNS login password in \u2777 'CNS login password.' Then, tap \u2778 'start registration.'",
+                    "img": "cns_ios/cns_ios3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'go.'<br/>If you have already issued your personal certifi cate and the certificate is still valid, select 'Download' in \u2776 , tap \u2777 'go,' and skip to STEP 06.<br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/>If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certifi cate will be invalidated.<br/><br/>You can confirm the expiration date of your certificate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one. For more details, please refer to the website below.<br/>\u21d2 https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html",
+                    "img": "cns_ios/cns_ios4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Make a new passphrase for your personal certificate. This passphrase is necessary to protect your personal certifi cate from unauthorized use. It must contain at least 8 characters. Enter your passphrase in \u2776 and \u2777 and tap \u2778 'Issue the personal certificate.' This passphrase will be used in STEP 18.",
+                    "img": "cns_ios/cns_ios5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Now you'll be on a selecting site of Setting profile. Tap \u2776 'Download' next to 'Profile(A).'<br/><br/>If you select 'Profile(C),' you can set up both wireless LAN connection and CNS mail at the same time. Also by selecting 'Profi le(B),' you can add VPN settings at the same time. To check VPN \u3010p.13 : Access Content Only Available on Campus from Outside\u3011 inside the colomns\u3010About VPN\u3011.<br/>If you want to set up CNS mail, tap 'Download' next to 'Profile(B)' or 'Profile(C).' Then follow STEP 6~21 of \u3010p. 61 :Configuring Your CNS Mail on Your iOS Divice\u3011. Then follow STEP 21 and STEP 22 in this section to set up your wireless LAN connection.",
+                    "img": "cns_ios/cns_ios6.png"
+                },
+                {
+                    "id": "07",
+                    "text": "The dialog box shown on the left side will appear. Tap \u2776 'Allow.'",
+                    "img": "cns_ios/cns_ios7.png"
+                },
+                {
+                    "id": "08",
+                    "text": "Tap \u2776 'Close.'",
+                    "img": "cns_ios/cns_ios8.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Installing your Certificate",
+            "steps": [
+                {
+                    "id": "09",
+                    "text": "On your home screen, tap \u2776 'Settings.'",
+                    "img": "cns_ios/cns_ios9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "If \u2776 'Profile Downloaded' is displayed, tap it and go on to STEP 13.",
+                    "img": "cns_ios/cns_ios10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "If 'Profile Downloaded' is not displayed in Settings, tap \u2776 'General.'",
+                    "img": "cns_ios/cns_ios11.png"
+                },
+                {
+                    "id": "12",
+                    "text": "Tap \u2776 'Profile.'",
+                    "img": "cns_ios/cns_ios12.png"
+                },
+                {
+                    "id": "13",
+                    "text": "The downloaded profile will be displayed. Tap the \u2776 Profile.",
+                    "img": "cns_ios/cns_ios13.png"
+                },
+                {
+                    "id": "14",
+                    "text": "Tap \u2776 'Install.'",
+                    "img": "cns_ios/cns_ios14.png"
+                },
+                {
+                    "id": "15",
+                    "text": "Type in your iOS device passcode.",
+                    "img": "cns_ios/cns_ios15.png"
+                },
+                {
+                    "id": "16",
+                    "text": "Tap \u2776 'Install.'",
+                    "img": "cns_ios/cns_ios16.png"
+                },
+                {
+                    "id": "17",
+                    "text": "Tap \u2776 'Install.'",
+                    "img": "cns_ios/cns_ios17.png"
+                },
+                {
+                    "id": "18",
+                    "text": "Type your personal certificate passphrase from STEP 05 in \u2776 and tap \u2777 'Next.'",
+                    "img": "cns_ios/cns_ios18.png"
+                },
+                {
+                    "id": "19",
+                    "text": "Tap \u2776 'Done.'",
+                    "img": "cns_ios/cns_ios19.png"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Connecting to CNS",
+            "steps": [
+                {
+                    "id": "20",
+                    "text": "Go back to your home screen and tap \u2776 'Settings.'",
+                    "img": "cns_ios/cns_ios20.png"
+                },
+                {
+                    "id": "21",
+                    "text": "Tap \u2776 'Wi-Fi.'",
+                    "img": "cns_ios/cns_ios21.png"
+                },
+                {
+                    "id": "22",
+                    "text": "Turn on \u2776 'Wi-Fi.'<br/>Tap \u2777 'CNS.' From now on, if you are on campus, your device will connect to CNS automatically.<br/><br/>Connecting Your iOS Device to CNS is completed.<br/><br/>\uff0a The new personal certificate may not be installed properly if you have older profi les installed. Make sure to delete any older SFC-CNS profi les first, then try again if you encounter problems.",
+                    "img": "cns_ios/cns_ios22.png"
+                }
+            ]
+        }
+    ]
+}

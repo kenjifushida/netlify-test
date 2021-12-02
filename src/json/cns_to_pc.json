@@ -1,0 +1,180 @@
+{
+    "text": "Connecting your PC (Windows 10) to CNS",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Connecting to 000000SFC",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "First, connect to the wireless LAN used for setting up network access on new devices. If you have a mobile router or any other method of connecting to the internet, skip to STEP 08. On the bottom left of the screen you will have to search \u2776 'Control Panel' and from the results open \u2777 'Control Panel.' ",
+                    "img": "cns_pc/cns_pc1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Click \u2776 'Network and Internet.'",
+                    "img": "cns_pc/cns_pc2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Click \u2776 'Network and Sharing Center.'",
+                    "img": "cns_pc/cns_pc3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "Click \u2776 'Set up a new connection or network.'",
+                    "img": "cns_pc/cns_pc4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Select \u2776 'Manually connect to a wireless network' and click \u2777 'Next.'",
+                    "img": "cns_pc/cns_pc5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Type '000000SFC' in \u2776 'Network name' and select 'No authentication (Open)' from \u2777 'Security type.' Make sure that \u2778 'Start this connection automatically' is unchecked, and check \u2779 'Connect even if the network is not broadcasting.' Then, click \u277a 'Next.'",
+                    "img": "cns_pc/cns_pc6.png"
+                },
+                {
+                    "id": "07",
+                    "text": "\uff0a '000000SFC' can only be used for setting up Wireless LAN connection. It can not be connected outside campus.",
+                    "img": "cns_pc/cns_pc7.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Generating your Certificate",
+            "steps": [
+                {
+                    "id": "08",
+                    "text": "Open a web browser and go to the URL: \u21d2 https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en Type your CNS login name in \u2776 and your CNS login password in \u2777 , then click \u2778 'Start the registration.'",
+                    "img": "cns_pc/cns_pc8.png"
+                },
+                {
+                    "id": "09",
+                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and click \u2777 'Submit.' If you have already issued your personal certifi cate, and the certifi cate is still valid, select 'Download' in \u2776 , click \u2777 'Submit,' and skip to STEP 11. New students have already issued a personal certifi cate at the time of CNS account pre-registration, so select 'Download' in \u2776 and move on to STEP 11. If your certifi cate has expired, select 'Reissue' in \u2776 and click \u2777 'Submit.' If you select 'Reissue,' your previously issued certifi cate will be invalidated. You can confi rm the expiration date of your certifi cate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certificate and reissue a new one. For more details, please refer to \u3010p. 25 How to delete an old certificate\u3011or the website below. \u21d2 https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html",
+                    "img": "cns_pc/cns_pc9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "Make a new passphrase for your personal certificate. This password is necessary to protect your personal certifi cate against unauthorized use and must contain at least 8 characters. Type your passphrase in \u2776 and \u2777 , then click \u2778 'Issue the personal certifi cate.' This passphrase will be used in STEP 14 and will be required when installing your certificate on any additional devices.",
+                    "img": "cns_pc/cns_pc10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "Your browser will prompt you to download the certificate. If you are using Firefox, a dialog box will appear at the bottom of the window. Click \u2776 'Open.' If the download does not automatically begin, click \u2777 'Download.'",
+                    "img": "cns_pc/cns_pc11.png"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Installing your Certificate",
+            "steps": [
+                {
+                    "id": "12",
+                    "text": "Open the file you just downloaded and wait for the 'Certificate Import Wizard' to appear. Check \u2776 'Current User,' then click \u2777 'Next.'",
+                    "img": "cns_pc/cns_pc12.png"
+                },
+                {
+                    "id": "13",
+                    "text": "Make sure that the path to your downloaded certificate is correctly entered in \u2776 'File Name.' Then click \u2777 'Next.'",
+                    "img": "cns_pc/cns_pc13.png"
+                },
+                {
+                    "id": "14",
+                    "text": "Type your personal certificate passphrase from STEP 10 in \u2776 'Password' and check \u2777 'Include all extended properties.' Then, click \u2778 'Next.'<br/><br/>\uff0a If you have forgotten the passphrase, return to STEP 09 and reissue your personal certificate.",
+                    "img": "cns_pc/cns_pc14.png"
+                },
+                {
+                    "id": "15",
+                    "text": "Click \u2776 'Next.'",
+                    "img": "cns_pc/cns_pc15.png"
+                },
+                {
+                    "id": "16",
+                    "text": "Click \u2776 'Finish.'",
+                    "img": "cns_pc/cns_pc16.png"
+                },
+                {
+                    "id": "17",
+                    "text": "If a security warning shows up, click \u2776 'Yes' after confirming.<br/><br/>The thumbprint of the CNS root certifi cation authority (CA) matches the following value.<br/>KEIO SFC Root CA G2:<br/>FB:90:09:D1:F6:45:EE:9B:B8:21:8A:09:E3:3F:B0:99:00:58:0E:63.<br/>KEIO SFC Root CA G2:<br/>3D:11:E9:BD:5D:F0:B5:7F:00:14:83:5D:43:C0:F0:22:E0:F6:B3:E4<br/><br/>If the thumbprint does not match, you should stop and contact ITC.",
+                    "img": "cns_pc/cns_pc17.png"
+                },
+                {
+                    "id": "18",
+                    "text": "Click \u2776 'OK.'<br/>If you have reissued your personal certiticate, please make sure to delete the old certificate.",
+                    "img": "cns_pc/cns_pc18.png"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Validating your Certificate",
+            "steps": [
+                {
+                    "id": "19",
+                    "text": "Go back to 'Control Panel' and open 'Network and Sharing Center' from 'Network and Internet.' Then, click \u2776 'Set up a new connection or network.'",
+                    "img": "cns_pc/cns_pc19.png"
+                },
+                {
+                    "id": "20",
+                    "text": "Select \u2776 'Manually connect to a wireless network' and click \u2777 'Next.'",
+                    "img": "cns_pc/cns_pc20.png"
+                },
+                {
+                    "id": "21",
+                    "text": "Type 'CNS' in \u2776 'Network name.' Select 'WPA2-Enterprise' from \u2777 'Security type' and check \u2778 'Start this connection automatically.' Then click \u2779 'Next.'",
+                    "img": "cns_pc/cns_pc21.png"
+                },
+                {
+                    "id": "22",
+                    "text": "Click \u2776 'Change connection settings.'",
+                    "img": "cns_pc/cns_pc22.png"
+                },
+                {
+                    "id": "23",
+                    "text": "Click the \u2776 'Security' tab.",
+                    "img": "cns_pc/cns_pc23.png"
+                },
+                {
+                    "id": "24",
+                    "text": "Below 'Choose a network authentication method,' select \u2776 'Microsoft: Smart Card or other certifi cate,' and click \u2777 'Settings.'",
+                    "img": "cns_pc/cns_pc24.png"
+                },
+                {
+                    "id": "25",
+                    "text": "Check \u2776 'Verify the server's identity by validating the certificate.' Check \u2777 'KEIO SFC Root CA G2' in the 'Trusted Root Certification Authorities.' Then, click \u2778 'OK.'",
+                    "img": "cns_pc/cns_pc25.png"
+                },
+                {
+                    "id": "26",
+                    "text": "Click \u2776 'OK.'",
+                    "img": "cns_pc/cns_pc26.png"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Connecting to CNS",
+            "steps": [
+                {
+                    "id": "27",
+                    "text": "Click the Internet access icon in the bottom right of the screen. Select \u2776 '[your CNS login name]@sfc.keio.ac.jp' and then click \u2777 'OK.'",
+                    "img": "cns_pc/cns_pc27.png"
+                },
+                {
+                    "id": "28",
+                    "text": "If you want to make sure your device is connected, look at the bottom left of your screen, click the \u2776 Windows icon, then click \u2777 'Settings.'",
+                    "img": "cns_pc/cns_pc28.png"
+                },
+                {
+                    "id": "29",
+                    "text": "Open 'Network and Internet' in Settings, then click 'WiFi.' You will be able to check which LAN is connected now. Once 'Connected' is displayed, close 'Network and Internet.'<br/>Instructions for connecting your Windows 10 to wireless are completed.",
+                    "img": "cns_pc/cns_pc29.png"
+                }
+            ]
+        }
+    ]
+}

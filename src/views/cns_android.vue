@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/cns-ios">Mac</a></p>
+      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/cns-ios">Android</a></p>
       <Procedure :procedure="procedure" />
     </div>
     <Footer />
@@ -8,14 +8,12 @@
 
 <script>
 import Procedure from '../components/Procedure.vue'
-import Footer from '../components/Footer.vue'
-import json from '../json/cns_to_mac.json'
+import json from '../json/cns_to_android.json'
 
 export default {
-    name:'cns_mac',
+    name:'cns_android',
     components: {
-        Procedure,
-        Footer
+        Procedure
     },
     data() {
       return {
@@ -24,6 +22,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .content {
     padding-top: 80px;

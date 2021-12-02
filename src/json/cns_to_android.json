@@ -1,0 +1,143 @@
+{
+    "text": "Connecting your Android Device to CNS",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Generating your Certificate",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "On your home screen, tap the \u2776 Chrome icon.<br/>The procedure for setting up an Android device depends on the specifi c model. This explanation uses a OnePlus 6T.",
+                    "img": "cns_android/cns_android1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Type the following URL in \u2776 and go to the registration page or scan the following QR code:<br/> \u21d2 https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en",
+                    "img": "cns_android/cns_android2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Type your CNS login name in \u2776 'CNS login name' and your CNS login password in \u2777 'CNS login password.' Then, tap \u2778 'Start the registration.'",
+                    "img": "cns_android/cns_android3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'Submit.' If you have already issued your personal certifi cate and the certifi cate is still valid, select 'Download' in \u2776 , tap \u2777 'Submit,' and skip to STEP 06.<br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/> If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certifi cate will be invalidated.<br/><br/>You can confi rm the expiration date of your certifi cate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one. For more details, please refer the website below. \u21d2 https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html",
+                    "img": "cns_android/cns_android4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Make a new passphrase for your personal certificate. This password is necessary to protect your personal certificate from unauthorized use and must contain at least 8 characters. Enter your passphrase in \u2776 and \u2777 and tap \u2778 'Issue the personal certificate.' This passphrase will be used in STEP 10.",
+                    "img": "cns_android/cns_android5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Your download should begin automatically. If it does not, tap \u2776 'Download'. When a dialog like the one shown at left appears, click \u2777 'Download'.<br/><br/>There are some models that cannot download personal certifi cates properly. If you have any issues downloading or installing your personal certificate, please refer to\u3010p. 48 :Connecting Your Device to CNS by EAP-PEAP Authentication.",
+                    "img": "cns_android/cns_android6.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Generating your Certificate",
+            "steps": [
+                {
+                    "id": "07",
+                    "text": "Tap \u2776 'Files'.",
+                    "img": "cns_android/cns_android7.png"
+                },
+                {
+                    "id": "08",
+                    "text": "Tap \u2776 'Downloads'.",
+                    "img": "cns_android/cns_android8.png"
+                },
+                {
+                    "id": "09",
+                    "text": "Tap \u2776 '[CNS login name].p12'.",
+                    "img": "cns_android/cns_android9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "\u2776 Enter the passphrase that you entered when the certifi cate was issued and tap \u2777 'OK'.",
+                    "img": "cns_android/cns_android10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "\u2776 Select 'Wi-Fi certificate' and tap \u2777 'OK'.",
+                    "img": "cns_android/cns_android11.png"
+                },
+                {
+                    "id": "12",
+                    "text": "\u2776 Change the Certificate name to 'CNS' and tap \u2777 'OK'",
+                    "img": "cns_android/cns_android12.png"
+                },
+                {
+                    "id": "13",
+                    "text": "Download the Root certifi cate of CNS from the following link, and when the message 'Install CA certificates in Settings' appears, tap \u2776 'Close.'<br/><br/>\u21d2\u3000https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem",
+                    "img": "cns_android/cns_android13.png"
+                },
+                {
+                    "id": "14",
+                    "text": "From 'Settings', tap \u2776 'Security'.",
+                    "img": "cns_android/cns_android14.png"
+                },
+                {
+                    "id": "15",
+                    "text": "\u2776 Tap 'Encryption & credentials'.",
+                    "img": "cns_android/cns_android15.png"
+                },
+                {
+                    "id": "16",
+                    "text": "\u2776 Tap 'Install a certificate'.",
+                    "img": "cns_android/cns_android16.png"
+                },
+                {
+                    "id": "17",
+                    "text": "\u2776 Tap 'CA Certificate'.",
+                    "img": "cns_android/cns_android17.png"
+                },
+                {
+                    "id": "18",
+                    "text": "When you see the message 'Your data won't be private', tap \u2776 'Install anyway'.",
+                    "img": "cns_android/cns_android18.png"
+                },
+                {
+                    "id": "19",
+                    "text": "Select \u2776 'KEIO_SFC_Root_CA_G2.pem' and install it.",
+                    "img": "cns_android/cns_android19.png"
+                },
+                {
+                    "id": "20",
+                    "text": "Verify that the message 'CA certificate installed.'",
+                    "img": "cns_android/cns_android20.png"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Generating your Certificate",
+            "steps": [
+                {
+                    "id": "21",
+                    "text": "From 'Settings', tap \u2776 'Network & internet'.",
+                    "img": "cns_android/cns_android21.png"
+                },
+                {
+                    "id": "22",
+                    "text": "Tap \u2776 'CNS'.",
+                    "img": "cns_android/cns_android22.png"
+                },
+                {
+                    "id": "23",
+                    "text": "Change the settings on this screen to the following values:<br/><img src='/step23_table.png' alt='step23_table'><br/>Once entered correctly, tap \u2776 'Connect.'<br/><br/>\uff0a On some devices, you may be prompted to select the connection type. If asked, select '802.1X EAP.'",
+                    "img": "cns_android/cns_android23.png"
+                },
+                {
+                    "id": "24",
+                    "text": "If 'Connected' is shown below 'CNS', your device is successfully configured.<br/><br/>Connecting Your Android Device to CNS is completed.",
+                    "img": "cns_android/cns_android24.png"
+                }
+            ]
+        }
+    ]
+}

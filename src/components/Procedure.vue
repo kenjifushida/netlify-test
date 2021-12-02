@@ -1,14 +1,13 @@
 <template>
-    <div class="content">
-        <h2 v-html="procedure.text"></h2>
-        <p>We're here to make your life here at SFC easier.</p>
-        <p>For the official guide, please <a href="">click here</a>.</p>
-        <Subpage :subpage="procedure.subpages[count]" />
-        <ProgressBar :count="count" :total="procedure.subpages.length" />
-        <div class="btn-container">
-            <button @click="prevPage" class="btn" >Previous</button>
-            <button @click="nextPage" class="btn" >Next</button>
-        </div>
+    <h2 v-html="procedure.text"></h2>
+    <p>We're here to make your life here at SFC easier.</p>
+    <p><span class="disclaimer">DISCLAIMER</span>: This is an assignment for a class and is an unofficial CNS Guide.</p>
+    <p>For the official guide, please click on this URL: <a href="https://cns-guide.sfc.keio.ac.jp/2021/CNSguide2021_en.pdf">https://cns-guide.sfc.keio.ac.jp/2021/CNSguide2021_en.pdf</a></p>
+    <Subpage :subpage="procedure.subpages[count]" />
+    <ProgressBar :count="count" :total="procedure.subpages.length" />
+    <div class="btn-container">
+        <button @click="prevPage" class="btn" >Previous</button>
+        <button @click="nextPage" class="btn" >Next</button>
     </div>
 </template>
 
@@ -50,26 +49,23 @@ export default {
 </script>
 
 <style scoped>
-.content {
-    padding-top: 80px;
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-}
 
-.content h2 {
-    padding: 10px 0px;
+h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 2.5rem;
 }
 
-.content p {
+p {
     font-size: 1.2rem;
     font-style: normal;
     font-weight: normal;
     color: #272727;
 
+}
+
+.disclaimer {
+    font-weight: bold;
 }
 
 a:link {
@@ -90,6 +86,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .btn {
