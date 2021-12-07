@@ -2,12 +2,12 @@
 <div class="footer">
     <div class="inner-footer">
         <div class="name-container">
-            <h1>SFC CNS GUIDE</h1>
+            <h1><a href="/">SFC CNS GUIDE</a></h1>
         </div>
         <ul class="navigation">
-            <a href=""><li>Sitemap</li></a>
-            <a href=""><li>Privacy Policy</li></a>
-            <a href=""><li>Site Policy</li></a>
+            <a href="#"><li>Sitemap</li></a>
+            <a href="/privacy-policy"><li>Privacy Policy</li></a>
+            <a href="/site-policy"><li>Site Policy</li></a>
         </ul>
     </div>
 </div>
@@ -36,6 +36,10 @@
     float: left;
     cursor: pointer;
     padding-left: 2rem;
+}
+
+.name-container h1 a:visited {
+    color: white;
 }
 
 .name-container h1{

@@ -12,7 +12,7 @@
                 },
                 {
                     "id": "02",
-                    "text": "Type the following URL in \u2776 or scan the following QR code, and go to the registration page :<br/><br/><a href=https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en\">https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en</a>\"",
+                    "text": "Type the following URL in \u2776 or scan the following QR code, and go to the registration page :<br/><br/><a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en'>https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en</a>",
                     "img": "cns_ios/cns_ios2.png"
                 },
                 {
@@ -22,7 +22,7 @@
                 },
                 {
                     "id": "04",
-                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'go.'<br/>If you have already issued your personal certifi cate and the certificate is still valid, select 'Download' in \u2776 , tap \u2777 'go,' and skip to STEP 06.<br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/>If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certifi cate will be invalidated.<br/><br/>You can confirm the expiration date of your certificate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one. For more details, please refer to the website below.<br/>\u21d2 https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html",
+                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'go.'<br/>If you have already issued your personal certifi cate and the certificate is still valid, select 'Download' in \u2776 , tap \u2777 'go,' and skip to STEP 06.<br/><br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/>If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certificate will be invalidated.<br/><br/>You can confirm the expiration date of your certificate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one.<br/><br/>For more details, please refer to the website below.<br/>\u21d2 <a href='https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html'>Delete Old Certificate<a/>",
                     "img": "cns_ios/cns_ios4.png"
                 },
                 {

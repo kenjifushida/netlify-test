@@ -12,7 +12,7 @@
                 },
                 {
                     "id": "02",
-                    "text": "Type the following URL in \u2776 and go to the registration page or scan the following QR code:<br/> \u21d2 https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en",
+                    "text": "Type the following URL in \u2776 and go to the registration page or scan the following QR code:<br/><br/> \u21d2<a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en'>https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en<a/><br/><br/><img src='./qr_android.png' alt='qr_code'>",
                     "img": "cns_android/cns_android2.png"
                 },
                 {
@@ -22,7 +22,7 @@
                 },
                 {
                     "id": "04",
-                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'Submit.' If you have already issued your personal certifi cate and the certifi cate is still valid, select 'Download' in \u2776 , tap \u2777 'Submit,' and skip to STEP 06.<br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/> If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certifi cate will be invalidated.<br/><br/>You can confi rm the expiration date of your certifi cate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one. For more details, please refer the website below. \u21d2 https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html",
+                    "text": "If this is your first time creating a personal certificate, select 'Issue' in \u2776 and tap \u2777 'Submit.' If you have already issued your personal certifi cate and the certifi cate is still valid, select 'Download' in \u2776 , tap \u2777 'Submit,' and skip to STEP 06.<br/>New students have already issued a personal certificate at the time of CNS account pre-registration, so select 'Download' and move on to STEP 06.<br/> If your certificate has expired, select 'Reissue' in \u2776 and tap \u2777 'go.' If you select 'Reissue,' your previous certifi cate will be invalidated.<br/><br/>You can confi rm the expiration date of your certifi cate by following the instructions at the following site. Once the expiration date has passed, you will not be able to connect to the campus wireless LAN, so you will need to delete the old certifi cate and reissue a new one. For more details, please refer the website below.<br/>\u21d2 <a href='https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html'>https://secure.itc.keio.ac.jp/c/a/sfc/en/network_information_wireless_802_1x_renew.html<a/>",
                     "img": "cns_android/cns_android4.png"
                 },
                 {
@@ -73,7 +73,7 @@
                 },
                 {
                     "id": "13",
-                    "text": "Download the Root certifi cate of CNS from the following link, and when the message 'Install CA certificates in Settings' appears, tap \u2776 'Close.'<br/><br/>\u21d2\u3000https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem",
+                    "text": "Download the Root certifi cate of CNS from the following link, and when the message 'Install CA certificates in Settings' appears, tap \u2776 'Close.'<br/><br/>\u21d2<a href='https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem'>https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem<a/><br/><br/><img src='./qr_code_android_13.png' alt='qr_code_step13'>",
                     "img": "cns_android/cns_android13.png"
                 },
                 {

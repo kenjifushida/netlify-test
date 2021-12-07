@@ -1,0 +1,23 @@
+{
+    "text": "Connecting your Mac (MacOS) to CNS",
+    "subpages": [
+        {
+        "id": "a",
+        "title": "Deleting Old Certificates",
+        "steps": [
+            {
+                "subpage": "a",
+                "id": "a01",
+                "text": "To delete an old certificate, first click on \u2777 'Keychain Access' in the \u2776 'Utilities' section of the application.",
+                "img": "cns_mac/cns_maca1.png"
+            },
+            {
+                "subpage": "a",
+                "id": "a02",
+                "text": "Select \u2776 'Certificates', and click \u2777 'Delete [CNS login name]@sfc.keio.ac.jp.' which appears when you rightclick '[CNS login name]@sfc.keio.ac.jp.'<br/><br/>After deleting the certificate, return to STEP1 and reissue your personal certificate. If you want to connect to other multiple devices after the reissue, select 'Download' because only the latest certificate will be valid. If you are still unable to connect after adding the certificate, please 'reboot' your device.<br/><br/>This is the end of the procedure for connecting your Mac (macOS) to CNS .",
+                "img": "cns_mac/cns_maca2.png"
+            }
+        ]
+        }
+    ]
+}

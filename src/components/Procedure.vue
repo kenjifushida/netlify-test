@@ -4,8 +4,8 @@
     <p><span class="disclaimer">DISCLAIMER</span>: This is an assignment for a class and is an unofficial CNS Guide.</p>
     <p>For the official guide, please click on this URL: <a href="https://cns-guide.sfc.keio.ac.jp/2021/CNSguide2021_en.pdf">https://cns-guide.sfc.keio.ac.jp/2021/CNSguide2021_en.pdf</a></p>
     <Subpage :subpage="procedure.subpages[count]" />
-    <ProgressBar :count="count" :total="procedure.subpages.length" />
-    <div class="btn-container">
+    <ProgressBar :count="count" :total="procedure.subpages.length" v-if="procedure.subpages.length > 1" />
+    <div class="btn-container" v-if="procedure.subpages.length > 1">
         <button @click="prevPage" class="btn" >Previous</button>
         <button @click="nextPage" class="btn" >Next</button>
     </div>
@@ -86,7 +86,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .btn {

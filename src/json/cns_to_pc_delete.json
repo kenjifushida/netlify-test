@@ -1,0 +1,36 @@
+{
+    "text": "Connecting your PC (Windows 10) to CNS",
+    "subpages": [
+        {
+            "id": "a",
+            "title": "Deleting Old Certificate",
+            "steps": [
+                {
+                    "id": "a01",
+                    "text": "If you want to delete a previously installed certificate, open ❶ 'Control Panel.'",
+                    "img": "cns_pc/cns_pca1.png"
+                },
+                {
+                    "id": "a02",
+                    "text": "Select ❶ 'Internet Options' and open it.",
+                    "img": "cns_pc/cns_pca2.png"
+                },
+                {
+                    "id": "a03",
+                    "text": "Click on the ❶ 'Content' tab and click ❷ 'Certificates.'",
+                    "img": "cns_pc/cns_pca3.png"
+                },
+                {
+                    "id": "a04",
+                    "text": "Hover the cursor over ❶ '[your CNS login name]@sfc.keio.ac.jp' to check the expiration date, and if it has expired, click ❷ 'Remove.'",
+                    "img": "cns_pc/cns_pca4.png"
+                },
+                {
+                    "id": "a05",
+                    "text": "Click ❶ 'Yes' when the warning message appears.<br/><br/>How to delete an old certificate is completed.",
+                    "img": "cns_pc/cns_pca5.png"
+                }
+            ]
+        }
+    ]
+}

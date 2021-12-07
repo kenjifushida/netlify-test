@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/cns-ios">iOS</a></p>
+      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/wifi/cns-ios">iOS</a></p>
       <Procedure :procedure="procedure" />
     </div>
     <Footer />
@@ -8,12 +8,14 @@
 
 <script>
 import Procedure from '../components/Procedure.vue'
+import Footer from '../components/Footer.vue'
 import json from '../json/cns_to_ios.json'
 
 export default {
     name:'cns_ios',
     components: {
-        Procedure
+        Procedure,
+        Footer
     },
     data() {
       return {
