@@ -17,8 +17,8 @@
                         <a href="#">Connect to CNS Printer</a>
                     </div>
                 </div>
-                <p>Please note this is not the official CNS Guide. This is a website made by SFC students as a course assignment.
-                    For the official guide, please click here.
+                <p class="redirect-text">Please note this is not the official CNS Guide. This is a website made by SFC students as a course assignment.
+                    For the official guide, please <a href="https://cns-guide.sfc.keio.ac.jp/2021/CNSguide2021_en.pdf">click here.</a>
                 </p>
             </div>
         </div>
@@ -95,4 +95,24 @@ export default {
     vertical-align: middle;
 }
 
+.redirect-text a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.redirect-text a:visited {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.redirect-text a:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 </style>

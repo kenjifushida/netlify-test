@@ -4,6 +4,9 @@
         <div class="step-info">
             <h1>{{step.id}}</h1>
             <p v-html="step.text"></p>
+            <div class="link-item" v-if="step.delText">
+                <a :href="'/wifi' + step.delHref">{{step.delText}}</a>
+            </div>
         </div>
     </div>
 </template>
@@ -58,6 +61,18 @@ export default {
     font-size: 1.4rem;
     margin-bottom: 3rem;
     color: #272727;
+}
+
+.link-item a{
+    display: inline-block;
+    background-color: #FFAF51;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0.3rem 0rem;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 @media screen and (max-width:1068px) {
