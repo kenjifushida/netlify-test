@@ -10,6 +10,7 @@ import cns_pc_delete from '../views/cns_pc_delete'
 import cns_ios from '../views/cns_ios'
 import cns_android from '../views/cns_android'
 
+import sitemap from '../views/sitemap'
 import privacy_policy from '../views/privacy_policy'
 import site_policy from '../views/site_policy'
 
@@ -53,6 +54,11 @@ const routes = [
         path: '/wifi/cns-android',
         name:'cns_android',
         component: cns_android
+    },
+    {
+        path: '/sitemap',
+        name:'sitemap',
+        component: sitemap
     },
     {
         path: '/privacy-policy',

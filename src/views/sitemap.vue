@@ -1,0 +1,83 @@
+<template>
+    <div class="content">
+        <h1>Sitemap</h1>
+        <h3><a href="/wifi">Connect to CNS Wi-Fi</a></h3>
+        <ul class="first-list">
+            <li><a href="/wifi/cns-pc">PC</a>
+                <ul class="sec-list">
+                    <li><a href="/wifi/cns-pc/del-certificate">Delete Certificate</a></li>
+                </ul>
+            </li>
+            <li><a href="/wifi/cns-mac">Mac</a>
+                <ul class="sec-list">
+                    <li><a href="/wifi/cns-mac/del-certificate">Delete Certificate</a></li>
+                </ul>
+            </li>
+            <li><a href="/wifi/cns-ios">iOS</a></li>
+            <li><a href="/wifi/cns-android">Android</a></li>
+        </ul>
+    </div>
+    <Footer />
+</template>
+
+<script>
+import Footer from '../components/Footer.vue'
+
+export default {
+    name: "sitemap",
+    components: {
+        Footer
+    }
+}
+</script>
+
+<style scoped>
+.content {
+  padding-top: 80px;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 29rem;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0rem;
+}
+
+.content h3 {
+    font-size: 2.1rem;
+    margin: 1rem 0rem;
+}
+
+.content p{
+    font-size: 1.4rem;
+    margin: 1rem 0rem;
+}
+
+.first-list li {
+    list-style: inside;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+.sec-list li {
+    list-style: inside;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+a:link {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+</style>

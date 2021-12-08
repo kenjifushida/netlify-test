@@ -5,7 +5,7 @@
             <h1><a href="/">SFC CNS GUIDE</a></h1>
         </div>
         <ul class="navigation">
-            <a href="#"><li>Sitemap</li></a>
+            <a href="/sitemap"><li>Sitemap</li></a>
             <a href="/privacy-policy"><li>Privacy Policy</li></a>
             <a href="/site-policy"><li>Site Policy</li></a>
         </ul>

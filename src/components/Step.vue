@@ -5,7 +5,7 @@
             <h1>{{step.id}}</h1>
             <p v-html="step.text"></p>
             <div class="link-item" v-if="step.delText">
-                <a :href="'/wifi' + step.delHref">{{step.delText}}</a>
+                <a :href="step.delHref">{{step.delText}}</a>
             </div>
         </div>
     </div>
