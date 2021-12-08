@@ -5,6 +5,9 @@
       <div class="del-btn-container">
         <a class="del-btn" href="/wifi/cns-mac/del-certificate">Delete Certificate</a>
       </div>
+      <div class="link-item">
+        <a href="/">Back to Home</a>
+      </div>
     </div>
     <Footer />
 </template>
@@ -42,6 +45,7 @@ export default {
 
 .del-btn-container {
   text-align: center;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -55,5 +59,23 @@ export default {
   font-size: 20px;
   cursor: pointer;
   text-align: center;
+}
+
+.link-item a{
+    display: inline-block;
+    background-color: #FFAF51;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0.3rem 0rem;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-item {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 </style>
