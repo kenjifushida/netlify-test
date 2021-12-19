@@ -2,9 +2,6 @@
     <div class="content">
       <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/wifi/cns-android">Android</a></p>
       <Procedure :procedure="procedure" />
-      <div class="link-item">
-        <a href="/">Back to Home</a>
-      </div>
     </div>
     <Footer />
 </template>

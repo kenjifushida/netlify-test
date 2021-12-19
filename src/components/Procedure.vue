@@ -6,8 +6,12 @@
     <Subpage :subpage="procedure.subpages[count]" />
     <ProgressBar :count="count" :total="procedure.subpages.length" v-if="procedure.subpages.length > 1" />
     <div class="btn-container" v-if="procedure.subpages.length > 1">
-        <button @click="prevPage" class="btn" >Previous</button>
-        <button @click="nextPage" class="btn" >Next</button>
+        <button @click="prevPage" class="btn" v-if="count!=0">Previous</button>
+        <button onclick="location.href='/';" class="btn" v-if="count+1 == procedure.subpages.length || count==0">Back to Home</button>
+        <button @click="nextPage" class="btn" v-if="count+1 != procedure.subpages.length">Next</button>
+    </div>
+    <div class="btn-container" v-if="(count+1 != procedure.subpages.length && count!=0) || procedure.subpages.length == 1">
+        <button onclick="location.href='/';" class="btn">Back to Home</button>
     </div>
 </template>
 
@@ -18,7 +22,7 @@ import ProgressBar from './ProgressBar'
 export default {
     name: 'Procedure',
     props: {
-        procedure: Object
+        procedure: Object,
     },
     data(){
         return {

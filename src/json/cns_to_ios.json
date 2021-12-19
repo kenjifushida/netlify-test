@@ -104,7 +104,10 @@
                 {
                     "id": "19",
                     "text": "Tap \u2776 'Done.'",
-                    "img": "cns_ios/cns_ios19.png"
+                    "img": "cns_ios/cns_ios19.png",
+                    "altId": "18.5",
+                    "altText": "Type your CNS email and tap on 'Next'.",
+                    "altImg": "cns_ios/cns_ios18_5.png"
                 }
             ]
         },

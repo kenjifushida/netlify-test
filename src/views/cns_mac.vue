@@ -5,9 +5,6 @@
       <div class="del-btn-container">
         <a class="del-btn" href="/wifi/cns-mac/del-certificate">Delete Certificate</a>
       </div>
-      <div class="link-item">
-        <a href="/">Back to Home</a>
-      </div>
     </div>
     <Footer />
 </template>

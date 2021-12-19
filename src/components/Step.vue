@@ -1,9 +1,12 @@
 <template>
     <div class="step-container">
-        <div class="step-img"><img :src="require(`@/assets/${step.img}`)" alt="step"></div>
+        <div class="step-img"><img :src="require(`@/assets/${stepImg}`)" alt="step"></div>
         <div class="step-info">
-            <h1>{{step.id}}</h1>
-            <p v-html="step.text"></p>
+            <h1>{{stepNumber}}</h1>
+            <p v-html="stepText"></p>
+            <div class="link-item" v-if="step.altId">
+                <button @click="changeStep">{{stepButtonText}}</button>
+            </div>
             <div class="link-item" v-if="step.delText">
                 <a :href="step.delHref">{{step.delText}}</a>
             </div>
@@ -16,6 +19,29 @@ export default {
     name: 'Step',
     props: {
         step: Object,
+    },
+    data() {
+        return {
+            stepNumber: this.step.id,
+            stepText: this.step.text,
+            stepImg: this.step.img,
+            stepButtonText: "Didn't Show?"
+        }
+    },
+    methods: {
+        changeStep() {
+            if (this.stepButtonText == "Didn't Show?") {
+                this.stepNumber = this.step.altId;
+                this.stepText = this.step.altText;
+                this.stepImg = this.step.altImg;
+                this.stepButtonText = "Go back";
+            } else {
+                this.stepNumber = this.step.id;
+                this.stepText = this.step.text;
+                this.stepImg = this.step.img;
+                this.stepButtonText = "Didn't Show?";
+            }
+        }
     }
 }
 </script>
@@ -63,7 +89,7 @@ export default {
     color: #272727;
 }
 
-.link-item a{
+.link-item a, button{
     display: inline-block;
     background-color: #FFAF51;
     color: white;
@@ -73,8 +99,13 @@ export default {
     border-radius: 100px;
     font-size: 1.3rem;
     text-align: center;
+    cursor: pointer;
 }
 
+button:active {
+    transform:scale(0.98);
+    background: #face75;
+}
 @media screen and (max-width:1068px) {
 
     .step-img{
