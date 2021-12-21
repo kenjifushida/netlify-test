@@ -58,7 +58,7 @@
                 },
                 {
                     "id": "10",
-                    "text": "Next, type the following incoming and outgoing mail server information into the settings window as shown.<br><br>Once you have entered all the settings, click \u2778 'Re-test.' After Thunderbird confi rms the mail server information, click \u2779 'Done.'",
+                    "text": "Next, type the following incoming and outgoing mail server information into the settings window as shown.<br><img src='/email_mac_table10.png' alt='step10_table'><br><br>Once you have entered all the settings, click \u2778 'Re-test.' After Thunderbird confi rms the mail server information, click \u2779 'Done.'",
                     "img": "cns_email_mac/cns_email_mac10.png"
                 },
                 {

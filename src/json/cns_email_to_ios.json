@@ -12,7 +12,7 @@
                 },
                 {
                     "id": "02",
-                    "text": "Type  the  following  URL  in \u2776 and  go  to  the  registration page or scan the following QR code : \u21d2<a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en'>https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en</a>",
+                    "text": "Type  the  following  URL  in \u2776 and  go  to  the  registration page or scan the following QR code : \u21d2<a href='https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en'>https://itcsecure.sfc.keio.ac.jp/wlan/?lang=en</a><br><br><img src='/email_ios_qr2.png' alt='step2_qr'>",
                     "img": "cns_email_ios/cns_email_ios2.png"
                 },
                 {

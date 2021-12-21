@@ -16,6 +16,22 @@
             <li><a href="/wifi/cns-ios">iOS</a></li>
             <li><a href="/wifi/cns-android">Android</a></li>
         </ul>
+        <h3><a href="/email">Connect your Device to CNS Email</a></h3>
+        <ul class="first-list">
+            <li><a href="/email/cns-email-pc">PC</a>
+            </li>
+            <li><a href="/email/cns-email-mac">Mac</a>
+            </li>
+            <li><a href="/email/cns-email-ios">iOS</a></li>
+            <li><a href="/email/cns-email-android">Android</a></li>
+        </ul>
+        <h3><a href="/printer">Connect your Device to CNS Printer</a></h3>
+        <ul class="first-list">
+            <li><a href="/printer/cns-printer-pc">PC</a>
+            </li>
+            <li><a href="/printer/cns-printer-mac">Mac</a>
+            </li>
+        </ul>
     </div>
     <Footer />
 </template>

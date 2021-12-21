@@ -11,10 +11,10 @@
                         <a href="/wifi">Connect to CNS Wi-Fi</a>
                     </div>
                     <div class="link-item">
-                        <a href="#">Set Up Mail and Client</a>
+                        <a href="/email">Set Up Mail and Client</a>
                     </div>
                     <div class="link-item">
-                        <a href="#">Connect to CNS Printer</a>
+                        <a href="/printer">Connect to CNS Printer</a>
                     </div>
                 </div>
                 <p class="redirect-text">Please note this is not the official CNS Guide. This is a website made by SFC students as a course assignment.

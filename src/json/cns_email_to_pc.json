@@ -53,7 +53,7 @@
                 },
                 {
                     "id": "09",
-                    "text": "If you see a window like at the left, type the following incoming and outgoing mail server information into the settings window as shown. <br><br>Once you have entered all the settings, click \u2778 'Re-test.' After Thunderbird confirms the mail server information, click \u2779 'Done.'",
+                    "text": "If you see a window like at the left, type the following incoming and outgoing mail server information into the settings window as shown.<br/><img src='/email_pc_table9.png' alt='step9_table'><br><br>Once you have entered all the settings, click \u2778 'Re-test.' After Thunderbird confirms the mail server information, click \u2779 'Done.'",
                     "img": "cns_email_pc/cns_email_pc9.png"
                 },
                 {

@@ -2,6 +2,8 @@ import {createRouter, createWebHistory} from 'vue-router'
 
 import home from '../views/home'
 import wifi from '../views/wifi'
+import email from '../views/email'
+import printer from '../views/printer'
 
 import cns_mac from '../views/cns_mac'
 import cns_mac_delete from '../views/cns_mac_delete'
@@ -33,6 +35,16 @@ const routes = [
         path: '/wifi',
         name:'wi-fi',
         component: wifi
+    },
+    {
+        path: '/email',
+        name:'email',
+        component: email
+    },
+    {
+        path: '/printer',
+        name:'printer',
+        component: printer
     },
     {
         path: '/wifi/cns-mac',

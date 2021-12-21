@@ -42,12 +42,12 @@
                 },
                 {
                     "id": "08",
-                    "text": "Enter the following settings: <br>Once typed correctly, tap \u2776 'NEXT >.'",
+                    "text": "Enter the following settings:<br><img src='/email_android_table8.png' alt='step8_table'><br>Once typed correctly, tap \u2776 'NEXT >.'",
                     "img": "cns_email_android/cns_email_android8.png"
                 },
                 {
                     "id": "09",
-                    "text": "Next, type the information below if necessary. <br> Check \u2776 'Require signin.' Once entered correctly, tap \u2777 'NEXT >.'\r",
+                    "text": "Next, type the information below if necessary.<br><img src='/email_android_table9.png' alt='step9_table'><br> Check \u2776 'Require signin.' Once entered correctly, tap \u2777 'NEXT >.'\r",
                     "img": "cns_email_android/cns_email_android9.png"
                 },
                 {
