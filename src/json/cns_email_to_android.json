@@ -1,0 +1,66 @@
+{
+    "text": "Configuring your CNS Mail on your Android",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Setting up your Mail Account",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "Tap \u2776 'Gmail' from the home page or the list of apps. If an email address is not set up in Gmail, go to STEP04. \uff0a The settings and procedure may vary from device to device. However, the procedure for configuring a mail server are the same.",
+                    "img": "cns_email_android/cns_email_android1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Tap the \u2776 'account icon' shown on the search bar and a list of accounts will be displayed.",
+                    "img": "cns_email_android/cns_email_android2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Tap \u2776 'Add another account'.",
+                    "img": "cns_email_android/cns_email_android3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "Tap \u2776 'Other.'",
+                    "img": "cns_email_android/cns_email_android4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Type '[your CNS login name]@sfc.keio.ac.jp' in \u2776 . Then, tap \u2777 'NEXT >.'",
+                    "img": "cns_email_android/cns_email_android5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Tap \u2776 'Personal (IMAP)' and tap \u2777 'NEXT >.'",
+                    "img": "cns_email_android/cns_email_android6.png"
+                },
+                {
+                    "id": "07",
+                    "text": "Type your IMAP/SMTP-AUTH password in \u2776 and tap \u2777 'NEXT >.'",
+                    "img": "cns_email_android/cns_email_android7.png"
+                },
+                {
+                    "id": "08",
+                    "text": "Enter the following settings: <br>Once typed correctly, tap \u2776 'NEXT >.'",
+                    "img": "cns_email_android/cns_email_android8.png"
+                },
+                {
+                    "id": "09",
+                    "text": "Next, type the information below if necessary. <br> Check \u2776 'Require signin.' Once entered correctly, tap \u2777 'NEXT >.'\r",
+                    "img": "cns_email_android/cns_email_android9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "You can modify your account options if you desire. Once you finished choosing your options, tap \u2776 'NEXT >.'",
+                    "img": "cns_email_android/cns_email_android10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "Type 'CNS' (or any other name you can use to distinguish from other mail accounts) in \u2776 'Give this account a name (optional)' and your full name in \u2777 'Your name (displayed on outgoing messages).' Then, tap \u2778 'NEXT >' to finish. <br><br>Configuring Your CNS Mail on Your Android Device is completed.",
+                    "img": "cns_email_android/cns_email_android11.png"
+                }
+            ]
+        }
+    ]
+}

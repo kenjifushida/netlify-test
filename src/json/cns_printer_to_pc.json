@@ -1,0 +1,127 @@
+{
+    "text": "Printing from your PC (Windows 10)",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Downloading your Printer Driver",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "By  using  the  IPP  (Internet  Printing  Protocol),  you  can \u2777 \u2778 \u2776 \u2776 \u2776 \u2777 send  printing  jobs  to  CNS  printers  from  your  PC.  First, open a web browser and go to the URL: \u21d2<a href='https://itcsecure.sfc.keio.ac.jp/form/password'>https://itcsecure.sfc.keio.ac.jp/form/password</a><br><br>Type  your  CNS  login  name  in \u2776 'CNS  login  name'  and  your  CNS  login  password  in \u2777 'CNS  login  password.' Then, click \u2778 'Login.'",
+                    "img": "cns_printer_pc/cns_printer_pc1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Click \u2776 'IPP Password.'",
+                    "img": "cns_printer_pc/cns_printer_pc2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Click \u2776 'Confirm.' Remember  the  password  you  will  see  in  the  next  page. This password will be used in STEP 15.",
+                    "img": "cns_printer_pc/cns_printer_pc3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "Open a web browser and go to the URL: \u21d2<a href='https://www.sfc.itc.keio.ac.jp/en/top_sfc.html'>https://www.sfc.itc.keio.ac.jp/en/top_sfc.html</a> <br><br>Click \u2777 'Printer  Information'  from  the \u2776 'Computer' menu.",
+                    "img": "cns_printer_pc/cns_printer_pc4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Click \u2776 'Printing procedure.'",
+                    "img": "cns_printer_pc/cns_printer_pc5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Scroll  down  to  the  middle  part  of  the  page  and  click  \u2776 'Printer driver.'",
+                    "img": "cns_printer_pc/cns_printer_pc6.png"
+                },
+                {
+                    "id": "07",
+                    "text": "Download  the  appropriate  driver  for  your  operating system  and  desired  printer.  For  black-and-white documents,  choose \u2776 'Monochrome  Printer.'  For  color documents, choose \u2777 'Color Printer.'<br><br>The  following  procedure  will  be  for  the  black-and-white printer  (monoprn),  but  if  you  would  like  to  use  the  color printer  (colorprn)  as  well,  set  the  monoprn  printer  first, then follow STEP 07~22 again with \u2777 'Color Printer.'<br><br>Please  refer  to \u3010p.150  :  How  to  Check  a  PC's  Operating System\u3011 in  case  you  do  not  know  your  PC\u2019s  operating system.",
+                    "img": "cns_printer_pc/cns_printer_pc7.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Adding the Printer to your PC",
+            "steps": [
+                {
+                    "id": "08",
+                    "text": "Open  the  installer  you  just  downloaded.  The  window shown on the left will appear. Then, click \u2776 'Browse....'",
+                    "img": "cns_printer_pc/cns_printer_pc8.png"
+                },
+                {
+                    "id": "09",
+                    "text": "Select \u2776 'Desktop' and click \u2777 'OK.'",
+                    "img": "cns_printer_pc/cns_printer_pc9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "Click \u2776 'Extract.'",
+                    "img": "cns_printer_pc/cns_printer_pc10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "After  installation,  open  'Control  Panel'  from  'All  Apps.' \u2776 \u2776 Then, click \u2776 'Hardware and Sound.'",
+                    "img": "cns_printer_pc/cns_printer_pc11.png"
+                },
+                {
+                    "id": "12",
+                    "text": "Click \u2776 'Add a device.'",
+                    "img": "cns_printer_pc/cns_printer_pc12.png"
+                },
+                {
+                    "id": "13",
+                    "text": "Click \u2776 'The printer that I want isn\u2019t listed.'",
+                    "img": "cns_printer_pc/cns_printer_pc13.png"
+                },
+                {
+                    "id": "14",
+                    "text": "Confirm  \u2776 'Select  a  shared  printer  by  name'  is  selected and  type  one  of  the  printer  addresses  below  in \u2777 . Then, click \u2778 'Next.'<br>Black and White Printer (Monochrome):<br>\u21d2<a href='https://cnsipp.sfc.keio.ac.jp/monoprn'>https://cnsipp.sfc.keio.ac.jp/monoprn</a><br>Color Printer:<br>\u21d2<a href='https://cnsipp.sfc.keio.ac.jp/colorprn'>https://cnsipp.sfc.keio.ac.jp/colorprn</a>",
+                    "img": "cns_printer_pc/cns_printer_pc14.png"
+                },
+                {
+                    "id": "15",
+                    "text": "Type  your  CNS  login  name  in \u2776 'User  Name'  and  your CNS  IPP  password  from  STEP  03  in \u2777 'Password.'  Then, click \u2778 'OK.'",
+                    "img": "cns_printer_pc/cns_printer_pc15.png"
+                },
+                {
+                    "id": "16",
+                    "text": "After the connection is established, 'Add Printer Wizard' will appear. Click \u2776 'Have Disk....'",
+                    "img": "cns_printer_pc/cns_printer_pc16.png"
+                },
+                {
+                    "id": "17",
+                    "text": "Click \u2776 'Browse....'",
+                    "img": "cns_printer_pc/cns_printer_pc17.png"
+                },
+                {
+                    "id": "18",
+                    "text": "Open  'disk1'  from  the  folder  in  which  you  extracted printer  drivers  during  installation  in  STEP  10.  Select  the \u2776 file in that folder and click \u2777 'Open.'",
+                    "img": "cns_printer_pc/cns_printer_pc18.png"
+                },
+                {
+                    "id": "19",
+                    "text": "Click \u2776 'OK.'",
+                    "img": "cns_printer_pc/cns_printer_pc19.png"
+                },
+                {
+                    "id": "20",
+                    "text": "If  you  chose  'Monochrome  Printer,'  select \u2776 'RICOH RPCS Basic BW.'<br>If  you  chose  'Color  Printer',  select  'RICOH  IPSiO  SP  C841 RPCS.'<br>Then, click \u2777 'OK' to proceed.",
+                    "img": "cns_printer_pc/cns_printer_pc20.png"
+                },
+                {
+                    "id": "21",
+                    "text": "Click \u2776 'Next.'",
+                    "img": "cns_printer_pc/cns_printer_pc21.png"
+                },
+                {
+                    "id": "22",
+                    "text": "Click \u2776 'Print  a  test  page.'  Check  that  the  job  has  been sent  successfully  by  using  the  terminal  next  to  one of  the  CNS  printers.  Confirm  that  your  test  page  has printed correctly. Then, click \u2777 'Finish.'<br><br>Printing from Your PC (Windows 10) is completed.",
+                    "img": "cns_printer_pc/cns_printer_pc22.png"
+                }
+            ]
+        }
+    ]
+}

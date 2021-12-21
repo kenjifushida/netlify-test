@@ -1,0 +1,204 @@
+{
+    "text": "Printing from your Mac (macOS)",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Downloading your Printer Driver",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "By using the IPP (Internet Printing Protocol), you can send printing jobs to the CNS printers from your Mac. First, open a web browser and go to the URL: \u21d2 <a href='https://itcsecure.sfc.keio.ac.jp/form/password'>https://itcsecure.sfc.keio.ac.jp/form/password</a> <br><br>Type your CNS login name in \u2776 'CNS login name' and your CNS login password in \u2777 'CNS login password.' Then, click \u2778 'Login.'",
+                    "img": "cns_printer_mac/cns_printer_mac1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Click \u2776 'IPP Password.'",
+                    "img": "cns_printer_mac/cns_printer_mac2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Click \u2776 'Confirm.' Remember the password you will see in the next page. <br><br>This password will be used in STEP 33.",
+                    "img": "cns_printer_mac/cns_printer_mac3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "Open a web browser and go to the URL : \u21d2 <a href='https://www.sfc.itc.keio.ac.jp/en/top_sfc.html'>https://www.sfc.itc.keio.ac.jp/en/top_sfc.html</a> <br><br>Click \u2777 'Printer Information' from the menu \u2776 'Computer.'",
+                    "img": "cns_printer_mac/cns_printer_mac4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "Click \u2776 'Printing procedure.'",
+                    "img": "cns_printer_mac/cns_printer_mac5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "Scroll down to the middle of the page and click \u2776 'Printer driver.'",
+                    "img": "cns_printer_mac/cns_printer_mac6.png"
+                },
+                {
+                    "id": "07",
+                    "text": "Click the \u2776 installer for Mac. Your download will begin.",
+                    "img": "cns_printer_mac/cns_printer_mac7.png"
+                },
+                {
+                    "id": "08",
+                    "text": "Open the file you just downloaded. Then, double click \u2776 to launch the installer.",
+                    "img": "cns_printer_mac/cns_printer_mac8.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Installing the Printer",
+            "steps": [
+                {
+                    "id": "09",
+                    "text": "The dialog like the image on the left will appear. Click \u2776 'OK.'",
+                    "img": "cns_printer_mac/cns_printer_mac9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "Open 'System Preferences' and click \u2776 'Security & Privacy.'",
+                    "img": "cns_printer_mac/cns_printer_mac10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "Click \u2776 icon and type your macOS account password. Then, click \u2777 'Open Anyway.'",
+                    "img": "cns_printer_mac/cns_printer_mac11.png"
+                },
+                {
+                    "id": "12",
+                    "text": "If you are using a Mac with Apple silicon, you will need to install Rosetta. Follow the instructions on the left to install it. If you have already installed Rosetta, this screen will not appear.",
+                    "img": "cns_printer_mac/cns_printer_mac12.png"
+                },
+                {
+                    "id": "13",
+                    "text": "Click \u2776 'Continue.'",
+                    "img": "cns_printer_mac/cns_printer_mac13.png"
+                },
+                {
+                    "id": "14",
+                    "text": "Click \u2776 'Continue.'",
+                    "img": "cns_printer_mac/cns_printer_mac14.png"
+                },
+                {
+                    "id": "15",
+                    "text": "Read the software license agreement carefully and click \u2776 'Agree' if you understand the terms and conditions and agree. If you do not, you may not use this software.",
+                    "img": "cns_printer_mac/cns_printer_mac15.png"
+                },
+                {
+                    "id": "16",
+                    "text": "Click \u2776 'Install.'",
+                    "img": "cns_printer_mac/cns_printer_mac16.png"
+                },
+                {
+                    "id": "17",
+                    "text": "When the window prompts you to type in your password, type your macOS account password in \u2776 'Password.' Then, click \u2777 'Install Software.'",
+                    "img": "cns_printer_mac/cns_printer_mac17.png"
+                },
+                {
+                    "id": "18",
+                    "text": "When the driver installation is finished, click \u2776 'Close.'",
+                    "img": "cns_printer_mac/cns_printer_mac18.png"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Adding the Printer to your Mac",
+            "steps": [
+                {
+                    "id": "19",
+                    "text": "Open 'System Preferences' and click \u2776 'Printers & Scanners.' <br><br>The next procedure will be for the black-and-white printer (monoprn), but if you would like to use the color printer (colorprn) as well, set the monoprn printer first, then follow STEP07~35 again; this time choose 'colorprn' instead of 'monoprn.'",
+                    "img": "cns_printer_mac/cns_printer_mac19.png"
+                },
+                {
+                    "id": "20",
+                    "text": "Click \u2776 '+.'",
+                    "img": "cns_printer_mac/cns_printer_mac20.png"
+                },
+                {
+                    "id": "21",
+                    "text": "Hold the control key and click the \u2776 blank space at the top of the window. <br>If you are using a trackpad and do not know how to right click, open 'System Preference' and select 'Trackpad.' Then click 'Secondary Click' from 'Point & Click' tab to confi gure your right click settings.",
+                    "img": "cns_printer_mac/cns_printer_mac21.png"
+                },
+                {
+                    "id": "22",
+                    "text": "Click \u2776 'Customize Toolbar....'",
+                    "img": "cns_printer_mac/cns_printer_mac22.png"
+                },
+                {
+                    "id": "23",
+                    "text": "Drag and drop the \u2776 'Advanced' icon onto the menu at the top of the window. Click \u2777 'Done' and click the 'Advanced' icon you just added.",
+                    "img": "cns_printer_mac/cns_printer_mac23.png"
+                },
+                {
+                    "id": "24",
+                    "text": "Select \u2776 'Internet Printing Protocol (https)' from 'Type.'",
+                    "img": "cns_printer_mac/cns_printer_mac24.png"
+                },
+                {
+                    "id": "25",
+                    "text": "Type one of the printer addresses as below in \u2776 'URL.' <br><br>Black-and-White Printer (Monochrome) :<br> \u21d2 <a href='https://cnsipp.sfc.keio.ac.jp/monoprn?waitjob=false'>https://cnsipp.sfc.keio.ac.jp/monoprn?waitjob=false</a><br>Color Printer : <br>\u21d2 <a href='https://cnsipp.sfc.keio.ac.jp/colorprn?waitjob=false'>https://cnsipp.sfc.keio.ac.jp/colorprn?waitjob=false</a> <br><br>Type name in \u2777 'Name.' If you are setting up the black\u0002and-white printer, type 'monoprn.' If you are setting up for the color printer, type 'colorprn.'",
+                    "img": "cns_printer_mac/cns_printer_mac25.png"
+                },
+                {
+                    "id": "26",
+                    "text": "Select \u2776 'Select Software...' from 'Use.'",
+                    "img": "cns_printer_mac/cns_printer_mac26.png"
+                },
+                {
+                    "id": "27",
+                    "text": "If you are setting up the black-and-white printer, select \u2776 'RICOH SP C841 PS mono' from the list. If you are setting up for the color printer, select \u2777 'RICOH SP C841 PS.' Then, click \u2778 'OK.' <br><br>You can find the printer software easily by typing 'RICOH' in \u2779 'Filter' column.",
+                    "img": "cns_printer_mac/cns_printer_mac27.png"
+                },
+                {
+                    "id": "28",
+                    "text": "Click \u2776 'Add.'",
+                    "img": "cns_printer_mac/cns_printer_mac28.png"
+                },
+                {
+                    "id": "29",
+                    "text": "Printer setup is completed. <br><br> However, it is highly recommended that you automate the authentication process CNS printers require before printing. Follow the instructions below.",
+                    "img": "cns_printer_mac/cns_printer_mac29.png"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Automating your Authentication Process",
+            "steps": [
+                {
+                    "id": "30",
+                    "text": "Print any kind of file or webpage (As an example, the SFC website is used). <br><br>Click \u2777 'Print...' from the menu \u2776 'File.'",
+                    "img": "cns_printer_mac/cns_printer_mac30.png"
+                },
+                {
+                    "id": "31",
+                    "text": "The print menu will be displayed. Select 'monoprn' for black-and-white documents, or 'colorprn' for colored documents in \u2776 . Then, click \u2777 'Print.'",
+                    "img": "cns_printer_mac/cns_printer_mac31.png"
+                },
+                {
+                    "id": "32",
+                    "text": "Click the bouncing icon in the dock \u2776 'monoprn.'",
+                    "img": "cns_printer_mac/cns_printer_mac32.png"
+                },
+                {
+                    "id": "33",
+                    "text": "Click \u2776 the refresh icon.",
+                    "img": "cns_printer_mac/cns_printer_mac33.png"
+                },
+                {
+                    "id": "34",
+                    "text": "Type your CNS login name in \u2776 'Name' and your CNS IPP password from STEP 03 in \u2777 'Password.' Check \u2778 'Remember this password in my keychain' and click \u2779 'OK.'",
+                    "img": "cns_printer_mac/cns_printer_mac34.png"
+                },
+                {
+                    "id": "35",
+                    "text": "Once the job is cleared from the window, the printing job has been sent successfully to the printer. <br><br>Printing from Your Mac (macOS) is completed.",
+                    "img": "cns_printer_mac/cns_printer_mac35.png"
+                }
+            ]
+        }
+    ]
+}

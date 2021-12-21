@@ -10,6 +10,15 @@ import cns_pc_delete from '../views/cns_pc_delete'
 import cns_ios from '../views/cns_ios'
 import cns_android from '../views/cns_android'
 
+import cns_email_mac from '../views/cns_email_mac'
+import cns_email_pc from '../views/cns_email_pc'
+import cns_email_ios from '../views/cns_email_ios'
+import cns_email_android from '../views/cns_email_android'
+
+import cns_printer_mac from '../views/cns_printer_mac'
+import cns_printer_pc from '../views/cns_printer_pc'
+
+
 import sitemap from '../views/sitemap'
 import privacy_policy from '../views/privacy_policy'
 import site_policy from '../views/site_policy'
@@ -54,6 +63,36 @@ const routes = [
         path: '/wifi/cns-android',
         name:'cns_android',
         component: cns_android
+    },
+    {
+        path: '/email/cns-email-mac',
+        name:'cns_email_mac',
+        component: cns_email_mac
+    },
+    {
+        path: '/email/cns-email-pc',
+        name:'cns_email_pc',
+        component: cns_email_pc
+    },
+    {
+        path: '/email/cns-email-ios',
+        name:'cns_email_ios',
+        component: cns_email_ios
+    },
+    {
+        path: '/email/cns-email-android',
+        name:'cns_email_android',
+        component: cns_email_android
+    },
+    {
+        path: '/printer/cns-printer-mac',
+        name:'cns_printer_mac',
+        component: cns_printer_mac
+    },
+    {
+        path: '/printer/cns-printer-pc',
+        name:'cns_printer_pc',
+        component: cns_printer_pc
     },
     {
         path: '/sitemap',

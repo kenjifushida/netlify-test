@@ -1,0 +1,72 @@
+{
+    "text": "Configuring your CNS Mail on your Mac",
+    "subpages": [
+        {
+            "id": "1",
+            "title": "Download and Install Thunderbird",
+            "steps": [
+                {
+                    "id": "01",
+                    "text": "Open a web browser and go to the following URL:<br> \u21d2 <a href='https://www.thunderbird.net/en-US/'>https://www.thunderbird.net/en-US/</a><br><br>Click \u2776 'FREE DOWNLOAD.'",
+                    "img": "cns_email_mac/cns_email_mac1.png"
+                },
+                {
+                    "id": "02",
+                    "text": "Your download should begin automatically. Next, open the file you just downloaded",
+                    "img": "cns_email_mac/cns_email_mac2.png"
+                },
+                {
+                    "id": "03",
+                    "text": "Drag and drop the \u2776 'Thunderbird' icon onto \u2777 the Applications folder.",
+                    "img": "cns_email_mac/cns_email_mac3.png"
+                },
+                {
+                    "id": "04",
+                    "text": "Open Finder and click \u2776 'Applications,' then doubleclick \u2777 'Thunderbird.'",
+                    "img": "cns_email_mac/cns_email_mac4.png"
+                },
+                {
+                    "id": "05",
+                    "text": "A dialog box similar to the one shown on the left will appear. Next, click \u2776 'Open.'",
+                    "img": "cns_email_mac/cns_email_mac5.png"
+                },
+                {
+                    "id": "06",
+                    "text": "If you are using a Mac with Apple silicon, you may need to install Rosetta. Follow the instructions on the left to install it. If you have already installed Rosetta, this screen will not appear.",
+                    "img": "cns_email_mac/cns_email_mac6.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Setting Up your Mail Account",
+            "steps": [
+                {
+                    "id": "07",
+                    "text": "From the menu, click \u2776 'File\u2026' and Select \u2777 'New.' Then select \u2778 'Existing Mail Account...' from \u2777 'New.",
+                    "img": "cns_email_mac/cns_email_mac7.png"
+                },
+                {
+                    "id": "08",
+                    "text": "Type your full name in \u2776 'Your name' and '[your CNS login name]@sfc.keio.ac.jp' in \u2777 'Email address.' Type your IMAP/SMTP-AUTH password in \u2778 'Password.' Check your information and click \u2779 'Continue.'",
+                    "img": "cns_email_mac/cns_email_mac8.png"
+                },
+                {
+                    "id": "09",
+                    "text": "Thunderbird will start searching for your email account, wait until you see the message 'Configuration found at email provider.' If the message is displayed, click \u2776 'Done'. If the message is not displayed, click 'Cancel' and then click 'Configure manually...'",
+                    "img": "cns_email_mac/cns_email_mac9.png"
+                },
+                {
+                    "id": "10",
+                    "text": "Next, type the following incoming and outgoing mail server information into the settings window as shown.<br><br>Once you have entered all the settings, click \u2778 'Re-test.' After Thunderbird confi rms the mail server information, click \u2779 'Done.'",
+                    "img": "cns_email_mac/cns_email_mac10.png"
+                },
+                {
+                    "id": "11",
+                    "text": "If such window shown in the image on the left appears, click \u2776 'Set as Default.'<br>Configuring Your CNS Mail on Your Mac (macOS) is completed.",
+                    "img": "cns_email_mac/cns_email_mac11.png"
+                }
+            ]
+        }
+    ]
+}
