@@ -63,8 +63,13 @@
                 },
                 {
                     "id": "11",
-                    "text": "If such window shown in the image on the left appears, click \u2776 'Set as Default.'<br>Configuring Your CNS Mail on Your Mac (macOS) is completed.",
+                    "text": "If such window shown in the image on the left appears, click \u2776 'Set as Default.'",
                     "img": "cns_email_mac/cns_email_mac11.png"
+                },
+                {
+                    "id": "12",
+                    "text": "If you see this window, click 'Confirm Security Exception'<br>Configuring Your CNS Mail on Your Mac (macOS) is completed.",
+                    "img": "cns_email_mac/cns_email_mac12.png"
                 }
             ]
         }

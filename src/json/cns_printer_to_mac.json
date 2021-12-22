@@ -54,7 +54,10 @@
                 {
                     "id": "09",
                     "text": "The dialog like the image on the left will appear. Click \u2776 'OK.'",
-                    "img": "cns_printer_mac/cns_printer_mac9.png"
+                    "img": "cns_printer_mac/cns_printer_mac9.png",
+                    "altId": "8.5",
+                    "altText": "You can click on 'Keep' and then click on the 'Go back' button below this text.",
+                    "altImg": "cns_printer_mac/cns_printer_mac8_5.png"
                 },
                 {
                     "id": "10",
