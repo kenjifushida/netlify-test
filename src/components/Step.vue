@@ -91,7 +91,7 @@ export default {
 
 .link-item a, button{
     display: inline-block;
-    background-color: #FFAF51;
+    background-color: #FF961B;
     color: white;
     padding: 1rem 2rem;
     margin: 0.3rem 0rem;
