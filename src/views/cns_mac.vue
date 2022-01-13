@@ -2,9 +2,6 @@
     <div class="content">
       <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/wifi/cns-mac">Mac</a></p>
       <Procedure :procedure="procedure" />
-      <div class="del-btn-container">
-        <a class="del-btn" href="/wifi/cns-mac/del-certificate">Delete Certificate</a>
-      </div>
     </div>
     <Footer />
 </template>

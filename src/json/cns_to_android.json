@@ -75,7 +75,7 @@
                 },
                 {
                     "id": "13",
-                    "text": "Download the Root certifi cate of CNS from the following link, and when the message 'Install CA certificates in Settings' appears, tap \u2776 'Close.'<br/><br/>\u21d2<a href='https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem'>https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem</a><br/><br/><img src='/qr_code_android_13.png' alt='qr_code_step13'>",
+                    "text": "Download the Root certificate of CNS from the following link, and when the message 'Install CA certificates in Settings' appears, tap \u2776 'Close.'<br/><br/>\u21d2<a href='https://itcsecure.sfc.keio.ac.jp/downloads/files/KEIO_SFC_Root_CA_G2.pem'>Download Root Certificate</a><br/><br/><img src='/qr_code_android_13.png' alt='qr_code_step13'>",
                     "img": "cns_android/cns_android13.png"
                 },
                 {

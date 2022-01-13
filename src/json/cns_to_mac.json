@@ -39,7 +39,9 @@
                 "subpage": "1",
                 "id": "06",
                 "text": "Your download will begin automatically. Once completed, open the file you just downloaded. If download does not begin, click ❶ 'Download' to save the file and open the certificate.<br/><br/>If your personal certificate has expired, please click on the Delete Old Certificate button below.",
-                "img": "cns_mac/cns_mac6.png"
+                "img": "cns_mac/cns_mac6.png",
+                "delText": "Delete Certificate",
+                "delHref": "/wifi/cns-mac/del-certificate"
             }
         ]
         },

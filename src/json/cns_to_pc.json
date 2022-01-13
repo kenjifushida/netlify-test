@@ -101,7 +101,7 @@
                 },
                 {
                     "id": "17",
-                    "text": "If a security warning shows up, click \u2776 'Yes' after confirming.<br/><br/>The thumbprint of the CNS root certifi cation authority (CA) matches the following value.<br/><b>KEIO SFC Root CA G2:</b><br/>FB:90:09:D1:F6:45:EE:9B:B8:21:8A:09:E3:3F:B0:99:00:58:0E:63.<br/><br/><b>KEIO SFC Root CA G2:</b><br/>3D:11:E9:BD:5D:F0:B5:7F:00:14:83:5D:43:C0:F0:22:E0:F6:B3:E4<br/><br/>If the thumbprint does not match, you should stop and contact ITC.",
+                    "text": "If a security warning shows up, click \u2776 'Yes' after confirming.<br/><br/>The thumbprint of the CNS root certification authority (CA) matches the following value.<br/><b>KEIO SFC Root CA G2:</b><br/>FB:90:09:D1:F6:45:EE:9B:B8:21:<br>8A:09:E3:3F:B0:99:00:58:0E:63<br/><br/><b>KEIO SFC Root CA G2:</b><br/>3D:11:E9:BD:5D:F0:B5:7F:00:14:<br>83:5D:43:C0:F0:22:E0:F6:B3:E4<br/><br/>If the thumbprint does not match, you should stop and contact ITC.",
                     "img": "cns_pc/cns_pc17.png"
                 },
                 {
