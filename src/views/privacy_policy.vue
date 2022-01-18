@@ -1,4 +1,5 @@
 <template>
+    <Header />
     <div class="content">
         <h1 >Privacy Policy for Project CNS</h1>
         <p >At Project CNS, accessible from https://modest-edison-4c1c6e.netlify.app/pages/wifi.html#, one 
@@ -91,10 +92,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+
 export default {
     name: "privacy_policy",
     components: {
+        Header,
         Footer
     }
 }

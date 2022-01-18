@@ -1,4 +1,5 @@
 <template>
+    <Header />
     <div class="content">
         <h1>Sitemap</h1>
         <h3><a href="/wifi">Connect to CNS Wi-Fi</a></h3>
@@ -37,11 +38,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
     name: "sitemap",
     components: {
+        Header,
         Footer
     }
 }

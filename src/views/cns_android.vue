@@ -1,13 +1,17 @@
 <template>
+    <Header />
     <div class="content">
-      <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/wifi/cns-android">Android</a></p>
-      <Procedure :procedure="procedure" />
+      <div class="links">
+        <p class="site-tracker"><a href="/">Home</a> > <a href="/wifi">Wi-Fi</a> > <a href="/wifi/cns-android">Android</a></p>
+        <p class="faq"><a href="/faq">FAQ</a></p>
+      </div>      <Procedure :procedure="procedure" />
     </div>
     <Footer />
 </template>
 
 <script>
 import Procedure from '../components/Procedure.vue'
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import json from '../json/cns_to_android.json'
 
@@ -15,6 +19,7 @@ export default {
     name:'cns_android',
     components: {
         Procedure,
+        Header,
         Footer
     },
     data() {
@@ -33,8 +38,17 @@ export default {
     display: block;
 }
 
+.links p {
+  display: inline-block;
+}
+
 .site-tracker {
   padding: 2rem 0;
+}
+
+.faq {
+  padding: 2rem 0;
+  float: right;
 }
 
 .link-item a{

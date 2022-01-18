@@ -1,6 +1,10 @@
 <template>
+    <Header />
     <div class="content">
-      <p class="site-tracker"><a href="/">Home</a> > <a href="/email">Email</a> > <a href="/email/cns-email-pc">PC</a></p>
+      <div class="links">
+        <p class="site-tracker"><a href="/">Home</a> > <a href="/email">Email</a> > <a href="/email/cns-email-pc">PC</a></p>
+        <p class="faq"><a href="/faq">FAQ</a></p>
+      </div>
       <Procedure :procedure="procedure" />
     </div>
     <Footer />
@@ -8,6 +12,7 @@
 
 <script>
 import Procedure from '../components/Procedure.vue'
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 import json from '../json/cns_email_to_pc.json'
 
@@ -15,6 +20,7 @@ export default {
     name:'cns_email_pc',
     components: {
         Procedure,
+        Header,
         Footer
     },
     data() {
@@ -35,6 +41,15 @@ export default {
 
 .site-tracker {
   padding: 2rem 0;
+}
+
+.links p {
+  display: inline-block;
+}
+
+.faq {
+  padding: 2rem 0;
+  float: right;
 }
 
 .link-item a{

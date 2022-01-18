@@ -1,4 +1,5 @@
 <template>
+    <Header />
     <div class="content">
         <h1>Site Policy</h1>
         <p >The PROJECT CNS website (“Website” hereinafter) is operated by PROJECT CNS  (“PROJECT CNS” hereinafter). Before using this Website, please read and consent to the following usage conditions.
@@ -87,11 +88,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
     name: "site_policy",
     components: {
+        Header,
         Footer
     }
 }

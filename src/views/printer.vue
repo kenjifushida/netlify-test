@@ -1,4 +1,5 @@
 <template>
+    <Header />
     <div class="content">
         <div id="home-img" class="item">
             <img src="../assets/home_img_reversed.png" alt="home_img">
@@ -19,11 +20,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
     name: 'printer',
     components: {
+        Header,
         Footer
     }
 }

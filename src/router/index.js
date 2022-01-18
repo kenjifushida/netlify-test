@@ -20,7 +20,7 @@ import cns_email_android from '../views/cns_email_android'
 import cns_printer_mac from '../views/cns_printer_mac'
 import cns_printer_pc from '../views/cns_printer_pc'
 
-
+import faq from '../views/faq'
 import sitemap from '../views/sitemap'
 import privacy_policy from '../views/privacy_policy'
 import site_policy from '../views/site_policy'
@@ -105,6 +105,11 @@ const routes = [
         path: '/printer/cns-printer-pc',
         name:'cns_printer_pc',
         component: cns_printer_pc
+    },
+    {
+        path: '/faq',
+        name: 'faq',
+        component: faq
     },
     {
         path: '/sitemap',

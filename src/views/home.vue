@@ -1,4 +1,5 @@
 <template>
+    <Header />
     <div class="content">
         <div id="text-container" class="item">
             <div id="inner-text-cont">
@@ -30,10 +31,13 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+
 export default {
     name: 'home',
     components: {
+        Header,
         Footer
     }
 }
