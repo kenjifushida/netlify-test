@@ -13,7 +13,7 @@
         <li><a href="#contact">Contact</a>
         </li>
     </ol>
-    <h2><a id="mail">Mail</a></h2>
+    <h2><a href="/email" id="mail">Mail</a></h2>
     <h3>I forgot/ need to change my IMAP/SMTP-AUTH Password
     </h3>
     <p><i>This section pertains to changing your email password</i><br>
@@ -38,7 +38,7 @@
             any strange error messages or have difficulties solving an issue by yourself, please visit the ITC CNS
             service desk or the CNS consultant booth. </li>
     </ol>
-    <h2><a id="printer">Printer</a></h2>
+    <h2><a href="/printer" id="printer">Printer</a></h2>
     <h3>I forgot/need to check my IPP Password</h3>
     <p>
         <i>Internet Printing Protocol (IPP) refers to the framework for connecting to the school's printers via the
@@ -74,8 +74,7 @@
             client configuration might need to be updated. Please refer to 【Configuring Your CNS Mail on Your
             PC(Windows10), Configuring Your CNS Mail on Your Mac(mac OS)】 and set up your mail client again. </li>
     </ol>
-    <br><br>
-    <h2><a id="wifi">WiFi</a></h2>
+    <h2><a href="/wifi" id="wifi">WiFi</a></h2>
     <h3>I cannot connect to the internet.</h3>
     <ol>
         <li>
@@ -92,7 +91,7 @@
         <li>Reconfigure Wireless Network. In some cases, your wireless network setting might not have been configured
             correctly. Please reconfigure the device; refer to 【 Wireless LAN】. </li>
     </ol>
-    <h2><a id="contact">SFC-CNS Technical Support Service</a></h2>
+    <h2 id="contact">SFC-CNS Technical Support Service</h2>
     <p>Shonan Fujisawa ITC (Information Technology Center)</p>
     <p>Shonan Fujisawa ITC (Information Technology Center)<br>
         Media Center North First Floor CNS Service Desk E-mail Address cns-request@sfc.keio.ac.jp Website
@@ -165,6 +164,16 @@ export default {
 .content li {
     list-style: inside;
     font-size: 1.3rem;
+}
+
+#mail, #printer, #wifi, #contact {
+    color: black;
+    text-decoration: none;
+}
+
+#mail:hover, #printer:hover, #wifi:hover, #contact:hover {
+    color: rgb(255, 170, 43);
+    text-decoration: none;
 }
 
 a:link {
