@@ -74,7 +74,7 @@
             client configuration might need to be updated. Please refer to 【Configuring Your CNS Mail on Your
             PC(Windows10), Configuring Your CNS Mail on Your Mac(mac OS)】 and set up your mail client again. </li>
     </ol>
-    <h2><a href="/wifi" id="wifi">WiFi</a></h2>
+    <h2><a href="/wifi" id="wifi">Wi-Fi</a></h2>
     <h3>I cannot connect to the internet.</h3>
     <ol>
         <li>
@@ -110,7 +110,8 @@
         (Closed on Sundays, and public holidays.)<br>
         <br>
         Please send any questions you have about SFC-CNS to Shonan Fujisawa ITC or CNS Consultants. You can also check
-        the website for further up-to-date information: ⇒ https://www.sfc.itc.keio.ac.jp/en/top_sfc.ht <br>
+        the website for further up-to-date information:<br>
+        ⇒ <a href="https://www.sfc.itc.keio.ac.jp/en/top_sfc.ht">https://www.sfc.itc.keio.ac.jp/en/top_sfc.ht</a><br>
     </p>
     </div>
     <Footer />
@@ -171,7 +172,7 @@ export default {
     text-decoration: none;
 }
 
-#mail:hover, #printer:hover, #wifi:hover, #contact:hover {
+#mail:hover, #printer:hover, #wifi:hover {
     color: rgb(255, 170, 43);
     text-decoration: none;
 }
